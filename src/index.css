@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.stepper {
+  max-width: 30rem;
+  position: relative;
+  top: 29px;
+  left: 150px;
+}
+
+.step {
+  background-color: #e5e5e5;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step.accomplished {
+  background-color: cadetblue;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 50rem;
+  min-height: 35rem;
+  gap: 30px;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form h1 {
+  margin-bottom: 30px;
+}
+
+.form input {
+  width: 70%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-inline: 10px;
+  outline: none;
+  border: 2px #e5e5e5 solid;
+}
+
+.form input:focus {
+  border: 2px cadetblue solid;
+}
+
+.form button {
+  width: 30%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: cadetblue;
+  color: white;
+}
+
+.steptwo textarea {
+  height: 200px;
+  width: 500px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border: 2px #e5e5e5 solid;
+  resize: none;
+}
+
+.form div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
